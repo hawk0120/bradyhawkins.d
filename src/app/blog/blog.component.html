@@ -1,0 +1,11 @@
+<div class="blog-list">
+  <div *ngFor="let entry of entries" class="blog-card">
+    <div class="card-content">
+      <div class="title">
+        <a routerLink="/blog/{{ entry.slug }}">{{ entry.title }}</a>
+      </div>
+      <div class="published">Published on {{ entry.date | date }} by Brady</div>
+    </div>
+  </div>
+</div>
+

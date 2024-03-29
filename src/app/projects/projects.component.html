@@ -1,0 +1,7 @@
+<div class="projects-list">
+  <div *ngFor="let project of project" class="project-item">
+    <h3 class="project-name">{{project.name}}</h3>
+    <p class="project.descrition">{{project.description}}</p>
+    <a [href]="project.url" target="_blank" class="project-link">Visit Project</a>
+  </div>
+</div>

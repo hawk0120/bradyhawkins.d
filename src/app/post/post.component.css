@@ -1,0 +1,11 @@
+* {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.Markdown-post {
+  margin-top: 5px;
+  min-height: 90vh;
+  min-width: 80vh;
+  text-align: left;
+}

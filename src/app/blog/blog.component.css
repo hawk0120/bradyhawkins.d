@@ -1,0 +1,13 @@
+.card-content{
+				padding: 10px;
+				margin: auto;
+}
+.card-content:hover{
+				translate: 4rem 
+}
+.title{
+				font-size: 1.3em;
+}
+.published{ 
+				font-size: 0.9em;
+}
