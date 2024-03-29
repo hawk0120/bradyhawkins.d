@@ -5,4 +5,4 @@ I researched a lot of options. I considered using AWS to host DB and Server for 
 
 The logic behind this approach is similar to retrieving content from a server-side source. Instead of fetching JSON data from an endpoint, the content is stored in a folder on the client side. I have concerns about performance, particularly with larger datasets, but the size of the data I'll be using is small enough where performance differences will be neglegable.
 
-I thought this approach was clever, and I was learned lots about Angular. 
+I thought this approach was clever, and I learned lots about Angular. 
