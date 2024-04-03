@@ -1,4 +1,4 @@
-#Repatriation and the Value of the Rosetta Stone
+# Repatriation and the Value of the Rosetta Stone
 
 Repatriation is a stain leftover from a less civilized time. Many western museums house stolen or looted artifacts from their colonial empires. The British Museum is no exception to that. It houses countless “gifted” items. One of these is a magnificent slab of stone with three different written languages on it. It was the key to decoding hieroglyphs, opening up the ancient Egyptian world. It’s probably the right course of action to give it back. However, it is complicated legally. The British Museum is bound by British law to maintain and retain the items.
 
