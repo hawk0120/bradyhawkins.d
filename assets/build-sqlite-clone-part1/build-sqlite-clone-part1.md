@@ -14,11 +14,12 @@ Or to put it more bluntly, how does a database work?
 
 I'm going to build a database from scratch. I'll model it on sqlite because its designed to be smaller with fewer features than MySQL or PostgreSQL.
 
+
 ## Sqlite
 
 There's lots of document of sqlite internals on their website.
 
-![image](./arch1.jpg)
+<img  src="assets/images/arch1.jpg">
 
 A query goes through a chain of components in order to retrive or modify data. The 'Front-end' consists of the:
 
@@ -42,11 +43,13 @@ The pager receives commands to read/write pages of data. It is responsible for r
 
 The OS interface is the layer that differs depending on which operating system Sqlite was compiled for. In this tutorial, I won't support multiple platforms, I use Ubuntu 22.04, so that's what I'll support.
 
+
 ## Making a Simple REPL
 
 Sqlite starts a read-execute-print loop when you start from the terminal. To do this, our main file will have an infinite loop that prints the prompt, gets a line of input, then processes that line of input. I'll write it in Java because of the JVM. I'll abstract away much of the back end and let Java take care of it. Thank you "Write Once, Run Anywhere". And people say Java is bad. 
 
-```
+
+<code>
 import java.io.IOException;
 import java.util.*;
 
@@ -70,16 +73,17 @@ public class Main {
         }
     }
 }
-```
+</code>
 
 \
 Here's what we built in action!
 
-![image](./REPL1.png)
-
+<img src="assets/images/REPL1.png">
 
 
 Alright, we've got a working REPL. In the next part, we'll start developing our command language.
+
+
 
 Here's the github link [here](https://github.com/hawk0120/sqliteClone.git)
 

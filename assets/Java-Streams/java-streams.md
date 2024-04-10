@@ -8,6 +8,7 @@ Unfortunately, I stumbled during the interview and ultimately, didn't receive an
 
 So here's my attempt at locking the Java Streams API my long-term memory to ensure that this doesn't happen again. 
 
+
 **Stream Creation**:
 
 - Creating an empty stream:
