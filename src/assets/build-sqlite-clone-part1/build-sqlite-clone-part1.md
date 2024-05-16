@@ -46,36 +46,36 @@ The OS interface is the layer that differs depending on which operating system S
 
 ## Making a Simple REPL
 
-Sqlite starts a read-execute-print loop when you start from the terminal. To do this, our main file will have an infinite loop that prints the prompt, gets a line of input, then processes that line of input. I'll write it in Java because of the JVM. I'll abstract away much of the back end and let Java take care of it. Thank you "Write Once, Run Anywhere". And people say Java is bad. 
+Sqlite starts a read-execute-print loop when you start from the terminal. To do this, our main file will have an infinite loop that prints the prompt, gets a line of input, then processes that line of input. I'll write it in typescript because of 'Anything that can be written in javascript, will eventually be written in javascript'.  
 
 
 <code>
-import java.io.IOException;
-import java.util.*;
 
+const readline = require('readline');
 
-public class Main {
-    public static void main(String[] args) {
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-        Scanner scan = new Scanner(System.in);
-        String input;
-
-        while(true) {
-            System.out.print("Sqlite> ");
-            input = scan.next().trim();
-
-            if (input.equals(".exit")) {
-                System.exit(0);
-            } else {
-                System.out.println("Unrecognized Command: " + input);
-
-            }
-        }
-    }
+function main() {
+  rl.question('sql>>> ', (input) => {
+      if (input.trim() === '.exit') {
+      rl.close();
+      return;
+      } else {
+      console.log("Processing input:", input);
+      }
+      main();
+      });
 }
+
+console.log("Welcome to Brady's sqlite clone!");
+
+main();
 </code>
 
-\
+
 Here's what we built in action!
 
 <img src="assets/images/REPL1.png">
@@ -85,9 +85,5 @@ Alright, we've got a working REPL. In the next part, we'll start developing our 
 
 
 
-Here's the github link [here](https://github.com/hawk0120/sqliteClone.git)
-
-
-
-
+Here's the github link [here](https://github.com/hawk0120/sqlLiteClone.git)
 

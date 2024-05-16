@@ -7,8 +7,8 @@ export interface Post {
 export const entries: Post[] = [
 
   {
-    title: 'Build SQlite Clone Part1',
-    date: new Date('2024-04-08'),
+    title: 'Build: SQlite Clone Part1',
+    date: new Date('2024-05-16'),
   },
    {
     title: 'Java Streams',
