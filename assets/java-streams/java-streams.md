@@ -1,5 +1,4 @@
 # Java 8 Streams
-
 I recently went through a hiring cycle for a Java Software Engineer position. Everything seemed promising - the company appeared to have a great culture, interesting projects, and the team seemed genuine. The initial interview rounds went smoothly but when it came to the technical round, it took a turn.
 
 Now, I consider myself compentent programmer with a portfolio to reflect that. However, there's something about an interview that makes programming infinitely more challenging. Whether its the weight of the moment or someone watching my every keystroke, its like navigating in a canoe down white water.
