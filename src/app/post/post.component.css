@@ -1,11 +1,20 @@
 * {
-  max-width: 80%;
   margin: 0 auto;
 }
 
 .Markdown-post {
   margin-top: 5px;
-  min-height: 90vh;
-  min-width: 80vh;
+  margin-bottom: 50px;
+  min-height: 90%;
+  min-width: 80%;
   text-align: left;
+}
+
+@media (max-width: 600px) {
+  img {
+    overflow: hidden !important;
+  }
+  code {
+    white-space: pre;
+  }
 }

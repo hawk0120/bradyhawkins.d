@@ -1,13 +1,15 @@
 .card-content{
-				padding: 10px;
+
+      padding: 10px;
 				margin: auto;
 }
 .card-content:hover{
-				translate: 4rem 
-}
+				translate: 4rem;
+        color: var(--yellow);
+      }
 .title{
 				font-size: 1.3em;
 }
-.published{ 
+.published{
 				font-size: 0.9em;
 }

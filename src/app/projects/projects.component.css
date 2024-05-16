@@ -1,28 +1,19 @@
 .projects-list {
- text-decoration: none !important;
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- gap: 20px;
- padding: 20px;
- max-width: 80vh;
- margin: 0 auto;
- }
-
-
-.project-item { 
-  background-color: rgba(34, 40, 49, 0.5);
-  padding: 20px;
-  border-radius: 8px;
+  text-decoration: none !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 0 auto;
 }
 
-.project-name{
-font-size: 2em;}
-.project-description{
+.projects-description{
 }
-.project-link{
-				margin-bottom: 3px;
-				font-size: 1.1em;
-				letter-spacing: -0.01em;
-				&:hover{
-				color: #579272;
-}}
+.project-link {
+  margin-bottom: 3px;
+  &:hover {
+    color: var(--yellow);
+    padding: 0.1em;
+    border-radius: 3px;
+    translate: 4em;
+  }
+}

@@ -1,26 +1,29 @@
- header {
-   padding: 10px;
-   text-align: center;
- }
- 
- nav ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
- }
- 
- nav li {
-   display: inline;
-   margin-right: 20px;
- }
- 
- nav a {
-   font-weight: bold;
-   transition: transform color 0.3s ease-in-out;
-   
+header{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-right: 0
 }
 
-nav a:hover {
-				color: grey;
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+
+}
+nav ul {
+   list-style-type: none;
+   display: flex;
+ }
+
+nav li {
+padding: 0.2em;
+}
+
+nav li a.active {
+  bottom-border-color: var(--yellow);
+  bottom-border: 1px solid;
+
+  }
 }
 

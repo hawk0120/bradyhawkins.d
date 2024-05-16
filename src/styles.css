@@ -1,54 +1,29 @@
-*{
- text-decoration: none;
- color: inherit;
-}
-body, h1, h2, h3, p, ul {
-  margin: 0;
-  padding: 0;
-	color: black;
+* {
+  text-decoration: none;
+  color: inherit;
 }
 
-body {
-  font-family: 'Calibre', sans-serif;
-  line-height: 1.6;
-  background-color: white;
-  color: black;
-}
+:root {
+  font-family: system-ui, helvetica;
+  --grey: #a7a2a9;
+  --black: #242424;
+  --white: #f4f7f5;
+  --yellow: #f2a541;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0;
+ }
 
-p {
-color: #black;
-}
-
-a:hover {
-				color: black;
-}
-
-
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-/* Responsive styles for small screens */
-@media screen and (max-width: 600px) {
-  nav {
-    text-align: center;
-  }
-
-  nav li {
-    display: block;
-    margin: 10px 0;
-  }
+body,
+h1,
+h2,
+h3,
+p,
+ul{
+font-family: Helvetica;
+  color: var(--grey);
+  background-color: var(--black);
+  line-height: 1em;
+  font-size: 1em;
 }
 
