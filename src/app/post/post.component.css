@@ -8,8 +8,8 @@
   min-height: 90%;
   min-width: 80%;
   text-align: left;
+  background-color: var(--black);
 }
-
 @media (max-width: 600px) {
   img {
     overflow: hidden !important;

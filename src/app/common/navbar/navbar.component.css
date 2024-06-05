@@ -1,29 +1,23 @@
-header{
+header {
   padding-top: 1em;
   padding-bottom: 1em;
-  margin-right: 0
+  margin-right: 0;
 }
 
 nav {
- display: flex;
- align-items: center;
- justify-content: space-between;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 nav ul {
-   list-style-type: none;
-   display: flex;
- }
-
-nav li {
-padding: 0.2em;
+  list-style-type: none;
+  display: flex;
 }
 
-nav li a.active {
-  bottom-border-color: var(--yellow);
-  bottom-border: 1px solid;
+nav li a{
+  padding: 0.2em;
 
+  &:hover {
+    color: var(--yellow);
   }
-
-
+}

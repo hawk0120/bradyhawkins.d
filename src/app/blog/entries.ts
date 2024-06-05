@@ -5,16 +5,23 @@ export interface Post {
 }
 
 export const entries: Post[] = [
-
+  {
+    title: 'Leetcode Strategies: Two Pointer',
+    date: new Date('2024-06-05'),
+  },
+  {
+    title: 'Build: Weepy App',
+    date: new Date('2024-05-24'),
+  },
   {
     title: 'Build: SQlite Clone Part1',
     date: new Date('2024-05-16'),
   },
-   {
+  {
     title: 'Java Streams',
     date: new Date('2024-04-05'),
   },
- {
+  {
     title: 'Welcome to my Website',
     date: new Date('2024-03-31'),
   },
