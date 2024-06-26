@@ -1,6 +1,6 @@
 {
   "name": "bradyhawkins.dev",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -23,6 +23,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "angular-font-awesome": "^3.1.2",
+    "angular-gtag": "^1.0.4",
     "font-awesome": "^4.7.0",
     "marked": "^9.1.6",
     "ngx-markdown": "^17.1.1",

@@ -5,6 +5,13 @@ export interface Post {
 }
 
 export const entries: Post[] = [
+
+/**  {
+   title: 'Code Till Employment',
+    date: new Date('2024-06-11'),
+  },
+**/
+
   {
     title: 'Leetcode Strategies: Two Pointer',
     date: new Date('2024-06-05'),

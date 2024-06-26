@@ -21,12 +21,6 @@ export class ProjectService {
   url: "https://www.bradyhawkins.dev/blog/build-weepy-app"
 },
 
-      {
-        name: 'Flappy Niks Game',
-        description:
-          'Created an interactive Flappy Bird inspired game using HTML5 Canvas, Angular, and Typescript. This was developed as a fun gift for my nephews in Canada.',
-        url: 'https://www.bradyhawkins.dev/game-canvas',
-      },
         {
         name: 'Cooking With Andrea Application',
         description:
@@ -47,6 +41,12 @@ export class ProjectService {
         url: 'https://www.scottysauto.ca',
       },
 
+      {
+        name: 'Flappy Niks Game',
+        description:
+          'Created an interactive Flappy Bird inspired game using HTML5 Canvas, Angular, and Typescript. This was developed as a fun gift for my nephews in Canada.',
+        url: 'https://www.bradyhawkins.dev/game-canvas',
+      },
 
 
       {
