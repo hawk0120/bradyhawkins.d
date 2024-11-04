@@ -5,6 +5,9 @@ on:
     branches:
       - gh-pages
 
+permissions:
+  contents: write
+
 jobs:
   update-domain:
     runs-on: ubuntu-latest
