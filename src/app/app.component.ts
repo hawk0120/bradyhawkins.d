@@ -1,14 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import {
-  Router,
   RouterOutlet,
   RouterLink,
   RouterLinkActive,
 } from '@angular/router';
 import { NavBarComponent } from './common/navbar/navbar.component';
 import { FooterComponent } from './common/footer/footer.component';
-import { CanvasManager } from './particles';
-import { ParticleManager } from './particles';
 
 @Component({
   selector: 'app-root',
@@ -20,21 +17,10 @@ import { ParticleManager } from './particles';
     RouterLink,
     RouterLinkActive,
   ],
-
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
 })
+
 export class AppComponent {
-  title = 'Brady Hawkins app';
-
-  ngOnInit() {
-    const canvasManager = new CanvasManager('particles-canvas');
-    const particleManager = new ParticleManager();
-
-    setInterval(
-      () => particleManager.createParticles(canvasManager.canvas),
-      10,
-    );
-    particleManager.animateParticles(canvasManager.ctx);
-  }
+  title = 'Brady Hawkins'
 }

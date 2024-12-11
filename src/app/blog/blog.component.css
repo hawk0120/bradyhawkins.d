@@ -1,15 +1,14 @@
-.card-content{
-
-      padding: 10px;
-				margin: auto;
+.card-content {
+  padding: 10px;
+  margin: auto;
 }
-.card-content:hover{
-				translate: 4rem;
-        color: var(--yellow);
-      }
-.title{
-				font-size: 1.3em;
+.card-content:hover {
+  translate: 4rem;
+  color: var(--yellow);
 }
-.published{
-				font-size: 0.9em;
+.title {
+  font-size: 1.3em;
+}
+.published {
+  font-size: 0.9em;
 }
